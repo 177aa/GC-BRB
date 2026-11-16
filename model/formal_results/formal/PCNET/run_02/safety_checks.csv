@@ -1,0 +1,17 @@
+Pipeline,Check,FitRecords,HeldRecords,OverlappingGroups,Passed
+outer_01,fit_stop_held,3774,2101,0,1
+outer_01,evidence_fold_1_and_nested_tuning,2517,1257,0,1
+outer_01,evidence_fold_2_and_nested_tuning,2512,1262,0,1
+outer_01,evidence_fold_3_and_nested_tuning,2519,1255,0,1
+outer_02,fit_stop_held,3776,2094,0,1
+outer_02,evidence_fold_1_and_nested_tuning,2528,1248,0,1
+outer_02,evidence_fold_2_and_nested_tuning,2510,1266,0,1
+outer_02,evidence_fold_3_and_nested_tuning,2514,1262,0,1
+outer_03,fit_stop_held,3776,2096,0,1
+outer_03,evidence_fold_1_and_nested_tuning,2516,1260,0,1
+outer_03,evidence_fold_2_and_nested_tuning,2520,1256,0,1
+outer_03,evidence_fold_3_and_nested_tuning,2516,1260,0,1
+final,fit_stop_held,6291,1586,0,1
+final,evidence_fold_1_and_nested_tuning,4189,2102,0,1
+final,evidence_fold_2_and_nested_tuning,4187,2104,0,1
+final,evidence_fold_3_and_nested_tuning,4206,2085,0,1
