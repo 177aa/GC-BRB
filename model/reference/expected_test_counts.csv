@@ -1,0 +1,7 @@
+﻿Target,TestRecordN,TestGroupN,ExcludedLabelledRecordN,ExcludedPositiveN,ExcludedNegativeN
+CPDB,746,746,23,3,20
+MULTINET,1125,1125,85,6,79
+PCNET,1586,1586,64,3,61
+STRINGdb,800,800,21,6,15
+IREF,1223,1223,48,5,43
+IREF_2015,690,690,62,6,56

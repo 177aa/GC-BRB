@@ -1,0 +1,7 @@
+{
+  "IdentitySHA256": "00e89920cd98066704b928aee8ed702cf7f5c5705e02b02b309eacdcf327b6f3",
+  "RecordN": 22659,
+  "GroupN": 21868,
+  "GroupingRule": "Connected components of shared nonempty normalized Ensembl ID OR normalized symbol",
+  "BiologicalAnnotationResolved": false
+}
