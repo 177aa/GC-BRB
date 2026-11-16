@@ -1,0 +1,14 @@
+{
+  "Protocol": "GG_OOF_1_0",
+  "Stage": "formal",
+  "Target": "IREF",
+  "Run": 4,
+  "Completed": true,
+  "FormalOptimizationSettings": true,
+  "BaseFingerprint": "cd7518374c6dc760e164a6c7e03ec0f7c89f939b8073f7704d7f4eb7a65a1704",
+  "CompleteOuterOOF": true,
+  "HeldoutLabelIsolation": true,
+  "GroupValAUPRC": 0.75464773892102355,
+  "GroupTestAUPRC": 0.849626801216984,
+  "EntryTestAUPRC": 0.849626801216984
+}
