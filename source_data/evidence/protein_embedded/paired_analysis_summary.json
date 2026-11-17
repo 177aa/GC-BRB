@@ -1,0 +1,77 @@
+{
+  "study": "PDC000153",
+  "locked_study_uuid": "f1c59a53-ab7c-11e9-9a07-0a80fada099c",
+  "retrieved_utc": "2026-10-21",
+  "endpoint": "https://proteomic.datacommons.cancer.gov/graphql",
+  "queries": {
+    "study": "{ study(pdc_study_id:\"PDC000153\") { study_id study_name pdc_study_id } }",
+    "quant_meta": "{ quantDataMatrix(study_id:\"f1c59a53-ab7c-11e9-9a07-0a80fada099c\", data_type:\"log2_ratio\") }",
+    "biospecimen": "{ biospecimenPerStudy(study_id:\"f1c59a53-ab7c-11e9-9a07-0a80fada099c\") { case_id case_submitter_id sample_id sample_submitter_id sample_type aliquot_id aliquot_submitter_id sample_status aliquot_status } }"
+  },
+  "measurement_columns": 223,
+  "biospecimen_records": 217,
+  "eligible_tumor": 108,
+  "eligible_normal": 101,
+  "pairs": 99,
+  "median_difference": -0.1114,
+  "zero_differences": 1,
+  "effective_pairs": 98,
+  "W": 2002.0,
+  "p": 0.13389069209287538,
+  "unpaired_U": 4015.0,
+  "unpaired_p": 0.00099319467214357,
+  "rounded_PDC_sensitivity_W": 1696.0,
+  "rounded_PDC_sensitivity_p": 0.15600040443314298,
+  "rounded_sensitivity_note": "Rounded PDC values, not a new extraction of historical HPA HTML.",
+  "wilcoxon": {
+    "zero_method": "wilcox",
+    "correction": true,
+    "method": "approx",
+    "alternative": "two-sided",
+    "difference_decimal_places": 4
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "disqualified": [
+    {
+      "case_id": "f1edf936-cf1e-11e9-9a07-0a80fada099c",
+      "case_submitter_id": "C3N-00545",
+      "sample_id": "a1f9d9df-d0a6-11e9-9a07-0a80fada099c",
+      "sample_submitter_id": "C3N-00545-01",
+      "sample_type": "Primary Tumor",
+      "aliquot_id": "5d25f254-d0b0-11e9-9a07-0a80fada099c",
+      "aliquot_submitter_id": "CPT0066890003",
+      "sample_status": "Disqualified",
+      "aliquot_status": "Disqualified"
+    },
+    {
+      "case_id": "f1edf936-cf1e-11e9-9a07-0a80fada099c",
+      "case_submitter_id": "C3N-00545",
+      "sample_id": "a212c839-d0a6-11e9-9a07-0a80fada099c",
+      "sample_submitter_id": "C3N-00545-06",
+      "sample_type": "Solid Tissue Normal",
+      "aliquot_id": "5d4908d3-d0b0-11e9-9a07-0a80fada099c",
+      "aliquot_submitter_id": "CPT0066930003",
+      "sample_status": "Disqualified",
+      "aliquot_status": "Disqualified"
+    }
+  ],
+  "excluded_measurement_columns": {
+    "reference_pool": 10,
+    "multiple_measurements": 4
+  },
+  "sha256": {
+    "rebuild_RPS6KA1_pairs.py": "0e3798875018de8087fc6333b659f68e06da5da3e59cc2844c9df813de0d15cf",
+    "RPS6KA1_measurement_mapping_223.csv": "29bb21d11807f0427361fbc5ee637e7ddac4a87b25b52ca23bab4201424dfd31",
+    "PDC000153_biospecimen_217.csv": "034ec3e3c8664417694a82269a1db60f34fc1bc98570a0dcceca8c521f4811bb",
+    "PDC000153_disqualified_biospecimens.csv": "1d3d9f028148b9588099119967e5b48cc17424eb3e1c69e96909410d5ba7f259",
+    "quant_meta.json": "72716370e10deaa8ab823877dbea30c11cbcad9e45a729921c83d77e0f12a4a5",
+    "study.json": "4d2e0691ed675d7574c784ed1dda5e7d2b4f49f4c5b0d047f2f183362986e6d1",
+    "RPS6KA1_patient_pairs_99.csv": "6b3f859c3b63709eeb986d7f4b2959aa92f41130536f5d38b7f681826f93fc59",
+    "biospecimen.json": "331659adc54b0bba00fec81b791ea0f0dcccf3d8e9444aa39d6b2218a5b73a50"
+  }
+}
