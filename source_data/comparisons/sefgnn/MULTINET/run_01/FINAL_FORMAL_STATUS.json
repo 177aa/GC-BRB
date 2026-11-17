@@ -1,0 +1,21 @@
+{
+  "Status": "PASS",
+  "Target": "MULTINET",
+  "Run": 1,
+  "ModelSeed": 2025,
+  "ValidationEvalSeed": 2026093411,
+  "TestEvalSeed": 2026093412,
+  "FrozenLearningRate": 0.0001,
+  "BestEpoch": 224,
+  "ValidationAUPRC": 0.7725158965476356,
+  "ValidationAUROC": 0.9592590234897194,
+  "TestN": 1125,
+  "TestPositive": 198,
+  "TestAUPRC": 0.850861724328162,
+  "TestAUROC": 0.942074466346311,
+  "TestF1_0p5": 0.7465940054495913,
+  "TrainInputNAfterNegativeDrop": 4921,
+  "DroppedTrainNegatives": 1842,
+  "RuntimeSeconds": 4197.658995389938,
+  "TestEvaluatedAfterCheckpointFreeze": true
+}
