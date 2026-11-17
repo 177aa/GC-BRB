@@ -30,6 +30,7 @@ This mode repeats probe mapping, expression transformation and complete-case sel
 For each gene, all mapped probes are transformed with `log2(MAS5 + 1)` and averaged before survival analysis. The LUAD complete-case cohort excludes missing event information, missing follow-up and nonpositive survival times. Each gene is standardized using its sample standard deviation, then fitted in a separate univariable Cox model with Efron ties. The six p values receive BH adjustment.
 
 Both input modes reproduced the repository tables within an absolute tolerance of 1e-12.
+
 Sources:
 
 - GSE68465: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68465
