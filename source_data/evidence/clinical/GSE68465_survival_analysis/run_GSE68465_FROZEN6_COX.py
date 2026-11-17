@@ -2,7 +2,6 @@
 
 The retained expression table is the default input. Use --from-raw to repeat
 probe mapping, log2(MAS5 + 1) transformation and complete-case selection.
-Statistical calculations are retained from the previously supplied script.
 """
 import argparse, csv, gzip, hashlib, io, json, os, platform, re
 from pathlib import Path
