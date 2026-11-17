@@ -1,0 +1,25 @@
+{
+  "Target": "IREF_2015",
+  "Run": 3,
+  "Architecture": "Official SEFGNN mathematics + six-view/missing-view benchmark adaptation",
+  "LearningRate": 0.0001,
+  "EpochBudget": 300,
+  "BatchSize": 128,
+  "NumNeighbors": [
+    40,
+    10
+  ],
+  "NegativeDrop": 0.3,
+  "WeightDecay": 0.005,
+  "HiddenChannelsInternal": 64,
+  "SES_DS_Weight": 0.8,
+  "ModelSeed": 2027,
+  "ValidationEvalSeed": 2026097431,
+  "TestEvalSeed": 2026097432,
+  "CheckpointSelection": "Validation AUPRC",
+  "MissingViewPolicy": "Vacuous Dirichlet alpha=[1,1]",
+  "MissingViewBatchNormPolicy": "Absent-view nodes excluded from training BN statistics",
+  "MissingViewPerViewLossNormalization": "Mean over present targets within each source",
+  "TrainingRNGIsolatedFromEvaluationRNG": true,
+  "TestLoaderCreation": "After checkpoint freeze only"
+}

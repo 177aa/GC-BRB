@@ -1,0 +1,21 @@
+{
+  "Status": "PASS",
+  "Target": "IREF_2015",
+  "Run": 1,
+  "ModelSeed": 2025,
+  "ValidationEvalSeed": 2026097411,
+  "TestEvalSeed": 2026097412,
+  "FrozenLearningRate": 0.0001,
+  "BestEpoch": 177,
+  "ValidationAUPRC": 0.8438849831286678,
+  "ValidationAUROC": 0.9598754341837346,
+  "TestN": 690,
+  "TestPositive": 196,
+  "TestAUPRC": 0.8371126465092054,
+  "TestAUROC": 0.9165909278691233,
+  "TestF1_0p5": 0.7433155080213903,
+  "TrainInputNAfterNegativeDrop": 5196,
+  "DroppedTrainNegatives": 1959,
+  "RuntimeSeconds": 3585.865322828293,
+  "TestEvaluatedAfterCheckpointFreeze": true
+}
