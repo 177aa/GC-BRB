@@ -16,7 +16,7 @@ The Python scripts for baseline models use the packages listed in `python/requir
 | --- | --- |
 | `gg_config.m` | Paths and model settings |
 | `gg_setup.m`, `gg_run.m` | Setup and workflow entry points |
-| `STEP*.m` | Scripts for the checks and model runs |
+| `STEP*.m` | Scripts for checks and model runs |
 | `core/` | Data splitting, evidence construction, training and output functions |
 | `legacy_core/` | Numerical and model functions |
 | `tests/` | Test scripts |
@@ -26,13 +26,15 @@ The Python scripts for baseline models use the packages listed in `python/requir
 
 ## Input data
 
-The model uses `multilayer_aligned_gcbrb.mat`, prepared from the EMOGI benchmark. The file contains 64-dimensional multi-omics features and six network layers. Place the file at:
+The model uses `multilayer_aligned_gcbrb.mat`, prepared from the EMOGI benchmark. The file contains 64-dimensional multi-omics features and six network layers.
+
+Before running the model, extract `multilayer_aligned_gcbrb.zip` in the `model_input/cache/prepared/` folder. The extracted file should be located at:
 
 ```text
-<data-root>/cache/prepared/multilayer_aligned_gcbrb.mat
+model_input/cache/prepared/multilayer_aligned_gcbrb.mat
 ```
 
-In `gg_config.m`, set `cfg.source_project_root` to `<data-root>`. Keep the `reference/` folder with the code; it is used to check the identity and order of input records.
+Keep the `reference/` folder with the model code. It is used to check the identity and order of input records.
 
 The prepared data file's SHA-256 is:
 
@@ -61,4 +63,4 @@ Existing outputs are checked against the input, code and configuration fingerpri
 
 ## Data and code availability
 
-The prepared input data, archived results and repository links will be added after the files and access conditions have been finalized. The model workflow has not yet been tested in a clean environment with this folder layout.
+The prepared input archive is provided in `model_input/cache/prepared/`. Archived run results are provided in `formal_results/formal/`. The model workflow has not yet been tested in a clean environment with this folder layout.
