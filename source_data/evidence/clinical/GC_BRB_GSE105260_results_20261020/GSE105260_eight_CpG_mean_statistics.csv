@@ -1,0 +1,2 @@
+N_Normal,N_Primary,N_Metastasis,MedianEightCpGMeanBeta_Normal,MedianEightCpGMeanBeta_Primary,MedianEightCpGMeanBeta_Metastasis,DeltaMedian_Primary_minus_Normal,Primary_vs_Normal_U,Primary_vs_Normal_rank_biserial,Primary_vs_Normal_P_nominal,Metastasis_vs_Normal_U,Metastasis_vs_Normal_P_nominal
+9,9,26,0.64026816625,0.679845763,0.703600597125,0.039577596749999944,66.0,0.6296296296296295,0.0272753837615853,204.0,0.0010956764792010387
