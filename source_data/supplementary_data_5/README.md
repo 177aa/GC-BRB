@@ -1,7 +1,9 @@
 # Threshold and support-rate summaries
 
-This folder contains the data for Supplementary Tables S82-S84.
-The inputs folder contains the saved model results and predictions. The script rebuild\_threshold\_summary.py uses these files to generate the validation threshold, fixed-threshold test and support-rate sensitivity summaries.
+Data for Supplementary Tables S82-S84. The inputs/ folder contains saved model results and predictions.
 
-The script does not train models or select new thresholds. The validation precision intervals do not account for threshold selection.
+rebuild_threshold_summary.py summarizes validation thresholds, fixed-threshold test results and support-rate sensitivity using the recorded predictions and thresholds.
+
+Validation precision intervals use the recorded thresholds and do not adjust for threshold selection.
+
 Requirements: Python, pandas, NumPy and SciPy.
