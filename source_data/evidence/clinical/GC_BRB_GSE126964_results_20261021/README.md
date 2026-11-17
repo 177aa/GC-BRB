@@ -26,8 +26,8 @@ Default reference checks use the two retained result tables. The script reports 
 
 Gene symbols are matched to the text preceding `|` in the input Gene field. Tumor and normal samples are paired by the shared CKC identifier, with terminal `N` identifying the normal sample. The retained GEO mapping supports the 11 pairs.
 
-The effect is tumor-minus-normal `log2(FPKM + 1)`. Each gene is tested with a two-sided exact Wilcoxon signed-rank test, followed by BH adjustment across six genes. The calculations are unchanged from the previously supplied reconstruction.
+The effect is tumor-minus-normal `log2(FPKM + 1)`. Each gene is tested with a two-sided exact Wilcoxon signed-rank test, followed by BH adjustment across six genes. 
 
-This is a reconstructed analysis implementation validated against retained data, not a recovered historical plotting script. The current revision changes file locations, reference-check reporting and output handling.
+This script reimplements the paired-expression analysis for Fig. 5a.
 
 Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126964
