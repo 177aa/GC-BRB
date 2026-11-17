@@ -1,0 +1,21 @@
+{
+  "Status": "PASS",
+  "Target": "STRINGdb",
+  "Run": 3,
+  "ModelSeed": 2027,
+  "ValidationEvalSeed": 2026095431,
+  "TestEvalSeed": 2026095432,
+  "FrozenLearningRate": 0.0001,
+  "BestEpoch": 234,
+  "ValidationAUPRC": 0.7011601527922036,
+  "ValidationAUROC": 0.905807236242019,
+  "TestN": 800,
+  "TestPositive": 196,
+  "TestAUPRC": 0.8434973337455935,
+  "TestAUROC": 0.9274817542911205,
+  "TestF1_0p5": 0.7308781869688386,
+  "TrainInputNAfterNegativeDrop": 5126,
+  "DroppedTrainNegatives": 1930,
+  "RuntimeSeconds": 4300.289452075958,
+  "TestEvaluatedAfterCheckpointFreeze": true
+}
