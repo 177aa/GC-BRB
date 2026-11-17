@@ -63,4 +63,4 @@ Existing outputs are checked against the input, code and configuration fingerpri
 
 ## Data and code availability
 
-The prepared input archive is provided in `model_input/cache/prepared/`. Archived run results are provided in `formal_results/formal/`. The model workflow has not yet been tested in a clean environment with this folder layout.
+The prepared input archive is provided in `model_input/cache/prepared/`. Archived run results are provided in `formal_results/formal/`. Preflight and the CPDB smoke test passed in a downloaded repository copy. The full formal training stage has not been rerun in that copy.
