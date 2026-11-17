@@ -1,0 +1,21 @@
+{
+  "Status": "PASS",
+  "Target": "PCNET",
+  "Run": 5,
+  "ModelSeed": 2029,
+  "ValidationEvalSeed": 2026094451,
+  "TestEvalSeed": 2026094452,
+  "FrozenLearningRate": 0.0001,
+  "BestEpoch": 201,
+  "ValidationAUPRC": 0.7834903222726537,
+  "ValidationAUROC": 0.9553174566041268,
+  "TestN": 1586,
+  "TestPositive": 215,
+  "TestAUPRC": 0.7778164947374343,
+  "TestAUROC": 0.9353688531542076,
+  "TestF1_0p5": 0.705,
+  "TrainInputNAfterNegativeDrop": 4626,
+  "DroppedTrainNegatives": 1723,
+  "RuntimeSeconds": 3376.722193479538,
+  "TestEvaluatedAfterCheckpointFreeze": true
+}
