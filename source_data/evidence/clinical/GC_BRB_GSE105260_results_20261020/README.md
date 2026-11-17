@@ -27,9 +27,9 @@ python recompute_gse105260.py --matrix GSE105260_series_matrix.txt.gz --output r
 
 The per-CpG comparison uses group medians, a two-sided Mann-Whitney U test with asymptotic p values and continuity correction, and BH adjustment across eight CpGs. Eight-CpG sample means are calculated before group summaries. Metastasis comparisons in the sample-mean output are secondary and use nominal p values.
 
-The statistical block is unchanged from the previously supplied implementation. This revision adds a retained-table input mode and relative default paths. Both input modes were run and compared with the repository results.
+Both input modes were tested against the repository result tables.
 
-Region labels preserve the annotations encoded in the supplied script. The matching platform annotation is required to independently establish gene/transcript and region assignments. Matrix extraction checks alone do not validate these annotations.
+Probe-region labels follow SCRIPT_REGIONS in the script. Their platform and transcript assignments await independent verification.
 
 Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105260
 
