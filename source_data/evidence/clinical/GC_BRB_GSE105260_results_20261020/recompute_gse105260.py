@@ -1,7 +1,6 @@
 """Recompute eight-CpG statistics from retained values or the original GEO matrix.
 
 The selected-table mode reproduces statistics, not extraction from the full matrix.
-Statistical calculations are retained from the previously supplied implementation.
 """
 from pathlib import Path
 from collections import Counter
