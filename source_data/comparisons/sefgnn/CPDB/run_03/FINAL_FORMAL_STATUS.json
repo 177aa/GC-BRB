@@ -1,0 +1,21 @@
+{
+  "Status": "PASS",
+  "Target": "CPDB",
+  "Run": 3,
+  "ModelSeed": 2027,
+  "ValidationEvalSeed": 2026092431,
+  "TestEvalSeed": 2026092432,
+  "FrozenLearningRate": 0.0001,
+  "BestEpoch": 241,
+  "ValidationAUPRC": 0.7959390333662987,
+  "ValidationAUROC": 0.9386118313935958,
+  "TestN": 746,
+  "TestPositive": 199,
+  "TestAUPRC": 0.8145065481353163,
+  "TestAUROC": 0.9124782964181051,
+  "TestF1_0p5": 0.7043010752688172,
+  "TrainInputNAfterNegativeDrop": 5159,
+  "DroppedTrainNegatives": 1945,
+  "RuntimeSeconds": 4708.691735744476,
+  "TestEvaluatedAfterCheckpointFreeze": true
+}
