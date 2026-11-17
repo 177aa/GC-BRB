@@ -11,7 +11,7 @@ python -m pip install -r requirements.txt
 python run_GSE68465_FROZEN6_COX.py
 ```
 
-The script reads `GSE68465_FROZEN6_EXPRESSION.csv` and `GSE68465_probe_mapping.csv` beside the script. The expression table is already present in this repository. The probe mapping was extracted from the retained GPL96 annotation, not inferred from outcome estimates.
+The script reads `GSE68465_FROZEN6_EXPRESSION.csv` and `GSE68465_probe_mapping.csv` beside the script. The expression table is already present in this repository. The probe mapping was extracted from the GPL96 annotation.
 
 New results are written to `recomputed/`. Existing result tables are preserved. Input and output directories can be set with `--input-dir` and `--output-dir`.
 
@@ -29,8 +29,7 @@ This mode repeats probe mapping, expression transformation and complete-case sel
 
 For each gene, all mapped probes are transformed with `log2(MAS5 + 1)` and averaged before survival analysis. The LUAD complete-case cohort excludes missing event information, missing follow-up and nonpositive survival times. Each gene is standardized using its sample standard deviation, then fitted in a separate univariable Cox model with Efron ties. The six p values receive BH adjustment.
 
-These statistical calculations are retained from the previously supplied script. This revision replaces the fixed local drive path with command-line and relative defaults, adds a retained-expression input mode and separates new outputs from archived results. Both input modes were run and matched the retained tables within 1e-12.
-
+Both input modes reproduced the repository tables within an absolute tolerance of 1e-12.
 Sources:
 
 - GSE68465: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68465
