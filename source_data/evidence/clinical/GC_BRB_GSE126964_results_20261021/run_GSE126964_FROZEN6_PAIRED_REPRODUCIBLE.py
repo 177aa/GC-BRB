@@ -23,7 +23,6 @@ Reconstructed analysis logic:
   6) Two-sided exact Wilcoxon signed-rank test per gene.
   7) Benjamini-Hochberg FDR correction across the six Wilcoxon P values.
 
-This script is a reconstructed reproducible implementation, not claimed to be the lost original script.
 """
 
 from __future__ import annotations
