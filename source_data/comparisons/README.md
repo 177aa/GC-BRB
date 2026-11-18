@@ -9,4 +9,4 @@ The EMGNN paired analysis uses the mean prediction across five runs for each sha
 
 The GC-BRB record-level mean AUPRC is 0.8521. The primary identity-group mean AUPRC is 0.8533. These values use different evaluation protocols.
 
-The original EMGNN bootstrap script is not included.
+The MATLAB scripts and input predictions for the EMGNN paired analysis are in `emgnn/statistics/`.
