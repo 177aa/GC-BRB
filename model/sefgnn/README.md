@@ -5,7 +5,7 @@ Training and evaluation scripts for the SEFGNN comparison in Fig. 2c.
 ## Environment
 
 `setup_sefgnn_cloud_env_v3.sh` describes a Linux environment with CUDA 12.1, Python 3.10, PyTorch 2.2.2 and PyTorch Geometric 2.6.1.
-
+The reported SEFGNN V2 runs were performed on an NVIDIA GeForce RTX 4090 D GPU with 24 GB of memory.
 The files in `SEFGNN_official/` include translated comments and output messages.
 
 ## Input
