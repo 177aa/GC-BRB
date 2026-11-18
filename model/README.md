@@ -9,6 +9,7 @@ GC-BRB integrates multi-omics features and protein-protein interaction networks 
 - MATLAB Java virtual machine (JVM)
 
 The Python scripts for baseline models use the packages listed in `python/requirements.txt`.
+`python/run_same_input_baselines.py` provides separate XGBoost and MLP diagnostic runs. Its configurations differ from those used for the Fig. 2d comparison.
 
 ## Files
 
